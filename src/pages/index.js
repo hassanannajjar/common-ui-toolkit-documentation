@@ -10,17 +10,11 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero ', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+          <img src='https://user-images.githubusercontent.com/49004640/148673584-8af12a36-21f6-4c32-9a61-57e2b7827901.png' alt='Common Ui Toolkit Logo'/>
       </div>
     </header>
   );
