@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start":  "[ -f /docs/example.md ] && docusaurus start || cp example.md ./docs/ &&  docusaurus start",
+    "start":  "[ -f /docs/example.md ] && docusaurus start || cp example.md ./docs/.example.md &&  docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

@@ -208,3 +208,14 @@ export const Highlight = ({children, color}) => (
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+
+
+## New Version
+
+Release a version 1.0 of your project:
+
+```bash
+npm run docusaurus docs:version 1.0
+```
+
+The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
