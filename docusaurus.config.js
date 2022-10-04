@@ -84,6 +84,10 @@ const config = {
             position: 'right',
             type: 'localeDropdown',
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       footer: {
