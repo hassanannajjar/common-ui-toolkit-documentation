@@ -34,15 +34,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
+        editUrl:
             'https://github.com/hassanannajjar/common-ui-toolkit-documentation/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/hassanannajjar/common-ui-toolkit-documentation/tree/main/',
         },
@@ -56,10 +52,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+      },
       // algolia :{},
       navbar: {
         title: 'Common UI Toolkit',
-        hideOnScroll:true,
+        hideOnScroll: true,
         logo: {
           alt: 'Common UI Toolkit Logo',
           src: 'img/cut.png',
@@ -110,7 +109,6 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/M7vbSnX3Xd',
               },
-              
             ],
           },
           {
@@ -131,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'Docusaurus',
-                href:'https://docusaurus.io/',
+                href: 'https://docusaurus.io/',
               },
               {
                 label: 'Netlify',
