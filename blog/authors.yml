@@ -1,17 +1,12 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+hassan:
+  name: Hassan Al-Najjar
+  title: Mobile App Developer
+  url: https://github.com/hassanannajjar
+  image_url: https://github.com/hassanannajjar.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+alaa:
+  name: Alaa Al-Zibda
+  title: Mobile App Developer
+  url: https://github.com/alaaalzibda
+  image_url: https://github.com/alaaalzibda.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png

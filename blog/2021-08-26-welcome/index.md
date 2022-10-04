@@ -1,11 +1,11 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+authors: [hassan, alaa]
+tags: [Common-UI-Toolkit]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+[Docusaurus blogging features](https://common-ui-toolkit.netlify.app/) are powered by the [blog plugin](https://common-ui-toolkit.netlify.app/).
 
 Simply add Markdown files (or folders) to the `blog` directory.
 
@@ -18,7 +18,6 @@ The blog post date can be extracted from filenames, such as:
 
 A blog post folder can be convenient to co-locate blog post images:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
 
 The blog supports tags as well!
 
