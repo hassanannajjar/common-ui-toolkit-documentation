@@ -1,6 +1,81 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
+# Examples!
+
+## All Examples Screens
+
+- Read the [official documentation](https://docusaurus.io/)
+- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
+- Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+- `src/pages/index.js` → `localhost:3000/`
+- title with the code 
+```jsx title="src/pages/my-react-page.js"
+import React from 'react';
+import Layout from '@theme/Layout';
+
+export default function MyReactPage() {
+  return (
+    <Layout>
+      <h1>My React page</h1>
+      <p>This is a React page</p>
+    </Layout>
+  );
+}
+```
+## Configure the Sidebar
+
+- Add metadata to customize the sidebar label and position:
+
+```md title="docs/hello.md" {1-4}
+---
+sidebar_label: 'Hi!'
+sidebar_position: 3
+---
+
+# Hello
+
+This is my **first Docusaurus document**!
+```
+- It is also possible to create your sidebar explicitly in `sidebars.js`:
+
+```js title="sidebars.js"
+module.exports = {
+  tutorialSidebar: [
+    'intro',
+    // highlight-next-line
+    'hello',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['styles/create-a-document'],
+    },
+  ],
+};
+```
+
+- To add highlight in some lines you can use `{1-4}` after title
+
+## Create your first Post
+
+Create a file at `blog/2021-02-28-greetings.md`:
+
+```md title="blog/2021-02-28-greetings.md"
+---
+slug: greetings
+title: Greetings!
+authors:
+  - name: Joel Marcey
+    title: Co-creator of Docusaurus 1
+    url: https://github.com/JoelMarcey
+    image_url: https://github.com/JoelMarcey.png
+  - name: Sébastien Lorber
+    title: Docusaurus maintainer
+    url: https://sebastienlorber.com
+    image_url: https://github.com/slorber.png
+tags: [greetings]
+---
+
 
 # Markdown Features
 

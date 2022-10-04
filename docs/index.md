@@ -9,13 +9,13 @@ sidebar_position: 1
 
 With Flutter:
 
-```bash
+```jsx
 flutter pub add common_ui_toolkit
 ```
 
 #### This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
-```bash
+```jsx
 dependencies:
   common_ui_toolkit: ^0.3.5
 ```
