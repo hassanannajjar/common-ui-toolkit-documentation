@@ -1,12 +1,22 @@
 ---
 sidebar_position: 2
 ---
+
 # Button
 
 CommonButton component
 
 
-```jsx
+  <p align="center">
+    <iframe
+      scrolling="no"
+      src="https://common-ui-toolkit-example.netlify.app/#/buttons"
+      width="300px"
+      height="600px"
+    />
+  </p>
+
+```jsx title=main.dart {4-8}
 CommonButton(
                 text: 'Button with elevation and custom size',
                 containerStyle: CommonContainerModel(
@@ -35,5 +45,7 @@ CommonButton(
                   // ),
                 ),
               ),
+
+
 ```
 
