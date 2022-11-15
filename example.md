@@ -219,3 +219,22 @@ npm run docusaurus docs:version 1.0
 ```
 
 The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+
+
+/// docs layout 
+
+### style → *CommonButtonModel*
+----
+> **description :**  Widget style
+
+> **default :**  CommonButtonModel()
+
+> **example :** 
+
+```jsx
+CommonButtonModel(
+               elevation: 10.0,
+               borderRadius: 0.1,
+             )
+```
+---
