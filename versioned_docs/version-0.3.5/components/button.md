@@ -16,7 +16,9 @@ CommonButton component
     />
   </p>
 
-```jsx title=main.dart {4-8}
+### Example: 
+
+```jsx title=main.dart {2-6}
 CommonButton(
                 text: 'Button with elevation and custom size',
                 containerStyle: CommonContainerModel(
@@ -26,26 +28,95 @@ CommonButton(
                 style: CommonButtonModel(
                   elevation: 10.0,
                   borderRadius: 0.1,
-
-                  // You can customize the button elecation OR use the default one
-                  // customElevation: MaterialStateProperty.all(100)
-
-                  // You can customize the overlay color as well OR use the default one
-                  // customOverlayColor: MaterialStateProperty.resolveWith(
-                  //   (states) {
-                  //     return states.contains(MaterialState.pressed)
-                  //         ? getColorType(Colors.red)
-                  //         : null;
-                  //   },
-                  // ),
-
-                  // You can customize the background color of the button
-                  // cutomBackgroundColor: MaterialStateProperty.all(
-                  //   Colors.amber,
-                  // ),
                 ),
               ),
-
-
 ```
+## Props
 
+### text → *String*
+----
+> **description :** Text that will show up
+
+> **default :**  ''
+
+> **example :** -- 
+
+---
+### child → *Widget*
+----
+> **description :**  child widget	
+
+> **default :** --
+
+> **example :** --
+---
+### onPress → *Function*
+----
+> **description :** on press function
+
+> **default :** --
+
+> **example :** --
+-----
+### onLongPress → *Function*
+----
+> **description :** on press function
+
+> **default :** --
+
+> **example :** --
+-----
+### style → *CommonButtonModel*
+----
+> **description :**  Widget style
+
+> **default :**  CommonButtonModel()
+
+> **example :** 
+
+```jsx
+CommonButtonModel(
+               elevation: 10.0,
+               borderRadius: 0.1,
+             )
+```
+---
+### containerStyle → *CommonContainerModel*
+----
+> **description :**  Container style
+
+> **default :**  CommonContainerModel()
+
+> **example :** 
+
+```jsx
+CommonContainerModel(
+             )
+```
+---
+### textContainerStyle → *CommonContainerModel*
+----
+> **description :**  Text Container style
+
+> **default :**  CommonContainerModel()
+
+> **example :** 
+
+```jsx
+CommonContainerModel(
+             )
+```
+---
+### textStyle → *CommonTextModel*
+----
+> **description :**  Text  style
+
+> **default :**  CommonTextModel()
+
+> **example :** 
+
+```jsx
+CommonTextModel(
+             )
+```
+---
